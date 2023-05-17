@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo-content">
+      <img src="logo.png" class="logo">
+      <a href="#" class="logo-name">Earl.</a>
+    </div>
+    <nav class="nav-bar">
+      <a href="#home" style="--i:1;" class="active">Home</a>
+      <a href="#about" style="--i:2;">About</a>
+      <a href="#project" style="--i:3;">Projects</a>
+      <a href="#resume" style="--i:4;">Resume</a>
+      <a href="#" style="--i:5;">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="home-content">
+      <h1>Hello and welcome!</h1>
+      <h3>1st Year BSIT Student</h3>
+      <p>Hello and welcome to my portfolio! My name is Earl John Y. Pama, and I am thrilled to have the
+        opportunity to share with you some of my past work and experiences. As an BSIT Student, I have honed
+        my
+        skills and gained valuable knowledge that I am excited to showcase here. Whether you're a potential
+        employer, colleague, or just someone who stumbled upon my page, I hope you enjoy exploring my
+        portfolio
+        and getting to know a bit more about me and my work. Thank you for visiting!</p>
+      <a href="#" class="btn">Hire Me</a>
+    </div>
+
+    <div class="profile">
+      <div class="glow-circle">
+        <span></span>
+        <span></span>
+        <div class="profile-image">
+          <img src="self.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <div class="about-content">
+      <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">About</h1>
+      <p data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">I am a 1st year student pursuing a Bachelor of Science in Information Technology (BSIT) with a strong passion
+        for
+        technology and innovation. Although I am new to the field, I am eager to learn and gain experience in the
+        areas
+        of
+        computer programming, web development, and cybersecurity. I believe that technology has the power to transform
+        the
+        world we live in, and I am excited to be a part of this rapidly-evolving industry. I am currently developing
+        my
+        skills in programming languages such as Java and Python, and am actively seeking opportunities to gain
+        practical
+        experience through internships or volunteer work.</p>
+    </div>
+  </section>
+
+
+
+  <section id="project">
+    <div class="project-content">
+      <h1 class="project-tag" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">Projects</h1>
+      <table>
+        <tr class="sample1">
+          <td>
+            <img src="project1.png" class="proj-1" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">
+          </td>
+          <td>
+            <a href="">
+              <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Project 1</h1>
+            </a>
+            <p data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales mi sed dolor efficitur, in malesuada
+              felis feugiat. Sed ac interdum enim. Vestibulum id massa vitae odio venenatis efficitur at sed sapien.
+              Etiam a consequat turpis. Phasellus eu semper ex, id viverra lectus.</p>
+          </td>
+        </tr>
+        <tr class="sample2">
+          <td>
+            <a href="">
+              <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">Project 2</h1>
+            </a>
+            <p data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales mi sed dolor efficitur, in malesuada
+              felis feugiat. Sed ac interdum enim. Vestibulum id massa vitae odio venenatis efficitur at sed sapien.
+              Etiam a consequat turpis. Phasellus eu semper ex, id viverra lectus.</p>
+          </td>
+          </td>
+          <td><img src="project2.png" class="proj-2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false"></td>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+
+
+  <section id="resume">
+    <h1 class="resume-tag" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">Resume</h1>
+    <div class="resume-content">
+        <img src="resume.png" class="resume-pic" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
+      <div class="skills" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">
+        <h1>Skills</h1>
+        <ul>
+          <li>Familiarity with web development</li>
+          <li>Computer fundamentals</li>
+          <li>Basic design skills</li>
+          <li>Analytical and problem-solving skills</li>
+          <li>Communication and teamwork</li>
+          <li>Microsoft Office proficiency</li>
+          <li>CapCut video editing</li>
+        </ul>
+        <div class="btn-box">
+          <a href="https://drive.google.com/file/d/1zrHF3vafC5Xn3qPu2z7ZNqz25Dt96vzD/view?usp=sharing">Check
+            Resume</a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <script src="scroll.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+
+</body>
+
+</html>
